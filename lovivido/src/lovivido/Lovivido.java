@@ -2,11 +2,10 @@
 package lovivido;
 
 import javax.swing.JOptionPane;
+public static void main(String[] args) {
 
 public class Lovivido {
-
-
-public static void main(String[] args) {
+       
 String n;
 String e;
 
