@@ -6,11 +6,8 @@ public class Factorial {
     int j,f;
    
 
-  
-   j = 8;    
-   
-
-    
+public void calculos(){  
+   j = 8;     
    int i;
    if (j == 0)
 f = 1;
