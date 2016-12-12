@@ -3,8 +3,8 @@ package factorial;
 
 public class Factorial {
            
-    int j;
-    int f;
+    int j,f;
+   
 
   
    j = 8;    
