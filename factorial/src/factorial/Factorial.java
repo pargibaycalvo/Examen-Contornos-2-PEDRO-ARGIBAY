@@ -3,26 +3,25 @@ package factorial;
 
 public class Factorial {
            
-    int j,f,i;
+    int j,resultado,i;
    
 
 public void calculos(){  
    j = 8;     
-   
    if (j == 0)
-f = 1;
+   resultado = 1;
    else
    {
-f = 1;
-for (i = j; i >= 1; i--)
+    resultado = 1;
+    for (i = j; i >= 1; i--)
 {
-    f = f * i;
+    resultado = resultado * i;
 }
    }    
   
  
 
-System.out.println(f); 
+System.out.println(resultado); 
 
 
     }
