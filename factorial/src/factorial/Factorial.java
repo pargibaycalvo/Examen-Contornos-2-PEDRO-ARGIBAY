@@ -18,8 +18,9 @@ public void calculos(){
     resultado = resultado * i;
 }
    }    
-  
- 
+}
+
+public void resultadofinlal(){ 
 
 System.out.println(resultado); 
 
