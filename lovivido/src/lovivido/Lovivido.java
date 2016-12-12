@@ -8,11 +8,12 @@ public class Lovivido {
        
 String n, e;
 int m,d,h,a;
-a = Integer.parseInt (e);
+
 
 public void pedirdatos(){
 n = JOptionPane.showInputDialog ("Escriba su nombre: ");
 e = JOptionPane.showInputDialog ("Escriba su edad: ");
+a = Integer.parseInt (e);
 }
 
 public void calculardatos(){
