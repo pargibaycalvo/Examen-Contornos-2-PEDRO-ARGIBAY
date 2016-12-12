@@ -3,12 +3,12 @@ package factorial;
 
 public class Factorial {
            
-    int j,f;
+    int j,f,i;
    
 
 public void calculos(){  
    j = 8;     
-   int i;
+   
    if (j == 0)
 f = 1;
    else
