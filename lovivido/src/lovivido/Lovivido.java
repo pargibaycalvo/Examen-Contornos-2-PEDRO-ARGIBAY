@@ -6,26 +6,26 @@ import javax.swing.JOptionPane;
 
 public class Lovivido {
        
-String n, e;
-int m,d,h,a;
+String nombre, edad;
+int mes,dia,hora,a;
 
 
 public void pedirdatos(){
-n = JOptionPane.showInputDialog ("Escriba su nombre: ");
-e = JOptionPane.showInputDialog ("Escriba su edad: ");
-a = Integer.parseInt (e);
+nombre = JOptionPane.showInputDialog ("Escriba su nombre: ");
+edad = JOptionPane.showInputDialog ("Escriba su edad: ");
+a = Integer.parseInt (edad);
 }
 
 public void calculardatos(){
 
-JOptionPane.showMessageDialog(null,  "Meses: "  +m,"Numero de meses vividos de " +n,JOptionPane.INFORMATION_MESSAGE); 
-m = (a*12);
+JOptionPane.showMessageDialog(null,  "Meses: "  +mes,"Numero de meses vividos de " +nombre,JOptionPane.INFORMATION_MESSAGE); 
+mes = (a*12);
 
-JOptionPane.showMessageDialog(null, "Días: " +d,"Numero de días vividos de "+n,JOptionPane.INFORMATION_MESSAGE);
-d = (a*365);
+JOptionPane.showMessageDialog(null, "Días: " +dia,"Numero de días vividos de "+nombre,JOptionPane.INFORMATION_MESSAGE);
+dia = (a*365);
 
-JOptionPane.showMessageDialog(null, "Horas: " +h,"Numero de horas vividos de "+n,JOptionPane.INFORMATION_MESSAGE);
-h = (d*24);
+JOptionPane.showMessageDialog(null, "Horas: " +hora,"Numero de horas vividos de "+nombre,JOptionPane.INFORMATION_MESSAGE);
+hora = (dia*24);
  
 System.exit (0); 
 
