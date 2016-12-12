@@ -6,13 +6,9 @@ import javax.swing.JOptionPane;
 
 public class Lovivido {
        
-String n;
-String e;
+String n, e;
+int mes, dia, hora, a;
 
-int m;
-int d;
-int h;
-int a;
 
 n = JOptionPane.showInputDialog ("Escriba su nombre: ");
 e = JOptionPane.showInputDialog ("Escriba su edad: ");
